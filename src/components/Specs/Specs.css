@@ -1,0 +1,40 @@
+.specs_conatiner {
+  width: 100vw;
+  margin-top: 300px;
+  padding-bottom: 200px;
+}
+.specs_content {
+  display: flex;
+  justify-content: space-between;
+}
+.specs_conatiner img {
+  width: 1000px;
+  margin-right: 60px;
+}
+.specs {
+  padding: 20px;
+}
+.specs_title {
+  font-size: 2.5vh;
+  line-height: 0.3;
+  color: #fd4500;
+}
+.specs_info {
+  font-size: 3vh;
+  font-weight: bold;
+  color: #0a0b0c;
+}
+.specs_left {
+  margin-left: 60px;
+  margin-top: 70px;
+}
+.specs_right {
+  margin-right: 50px;
+  margin-top: 70px;
+}
+.specs_tag {
+  margin-top: 40px;
+  font-size: 10vh;
+  font-weight: bold;
+  color: #fd4500;
+}

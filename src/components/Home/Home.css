@@ -1,6 +1,6 @@
 .home_container {
   width: 100vw;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .home_hero {
@@ -10,21 +10,22 @@
 }
 .home_hero img {
   width: 55%;
-  margin-top: 78px;
 }
 
 .home_title {
-  font-size: 18vh;
-  margin-top: 280px;
+  font-size: 22vh;
+  margin-top: 160px;
   position: absolute;
-  left: 190px;
+  left: 210px;
+  color: #0a0b0c;
 }
 
 .home_sec-title {
-  font-size: 18vh;
-  margin-top: 280px;
+  font-size: 22vh;
+  margin-top: 160px;
   position: absolute;
-  right: 280px;
+  right: 200px;
+  color: #0a0b0c;
 }
 
 .home_bottom {
@@ -48,6 +49,7 @@
   font-size: 4vh;
   font-weight: bold;
   text-align: center;
+  color: #0a0b0c;
 }
 .home_spec-title {
   font-size: 2vh;
@@ -61,13 +63,10 @@
   margin-top: 35px;
   height: 10vh;
 }
-
-.home_color-radio {
-  display: flex;
-  flex-direction: column;
-  padding-right: 30px;
-  height: 300px;
-  width: 30px;
-  padding-top: 30px;
+.home_tag {
+  font-size: 3.5vh;
+  font-weight: bold;
+  color: #fd4500;
+  margin-bottom: 50px;
+  transform: rotate(90deg);
 }
-/* -------------------- */

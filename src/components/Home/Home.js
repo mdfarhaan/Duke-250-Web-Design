@@ -1,10 +1,5 @@
 import React from "react";
 import "./Home.css";
-import Radio from "@mui/material/Radio";
-import RadioGroup from "@mui/material/RadioGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import FormControl from "@mui/material/FormControl";
-import FormLabel from "@mui/material/FormLabel";
 import D1 from "../assets/D1.jpg";
 import RTR1 from "../assets/RTR1.png";
 
@@ -46,15 +41,8 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="home_color-radio">
-            <RadioGroup defaultValue="female">
-              <FormControlLabel value="dark" control={<Radio />} label="Dark" />
-              <FormControlLabel
-                value="light"
-                control={<Radio />}
-                label="Light"
-              />
-            </RadioGroup>
+          <div className="home_color">
+            <h1 className="home_tag">#GETDUKED</h1>
           </div>
         </div>
       </div>

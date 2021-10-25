@@ -1,7 +1,17 @@
+@font-face {
+  font-family: "BlenderPro";
+  font-style: normal;
+  font-weight: 400;
+
+  src: local("BlenderPro"), local("BlenderPro"),
+    url("./components/assets/BlenderPro/BlenderPro-Bold.woff") format("woff"); /* Modern Browsers */
+}
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: "BlenderPro";
 }
 
 .App {
