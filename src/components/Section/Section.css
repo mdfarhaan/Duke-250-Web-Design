@@ -1,0 +1,27 @@
+.section1_container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.section1_container h2 {
+  font-size: 4vh;
+}
+
+.section1_container h1 {
+  font-size: 10vh;
+}
+.section1_container img {
+  width: 1000px;
+  margin-right: 90px;
+}
+
+.sec1_content {
+  margin-left: 90px;
+}
+.sec1_para {
+  width: 30vw;
+  font-size: 2.5vh;
+  text-align: left;
+  font-weight: normal;
+  line-height: 2;
+}
